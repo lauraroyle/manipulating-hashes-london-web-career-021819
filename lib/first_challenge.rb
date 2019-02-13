@@ -17,6 +17,7 @@ contacts["Freddy Mercury"].each do |keys, values| #attribute is the keys (name, 
     if keys == :favorite_icecream_flavors
       values.delete_if do |flavour|
         flavour == "strawberry"
+        end
       end
    end
 end
