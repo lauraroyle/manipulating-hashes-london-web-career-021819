@@ -20,4 +20,5 @@ contacts["Freddy Mercury"].each do |keys, values| #attribute is the keys (name, 
         end
       end
    end
+   contacts
 end
