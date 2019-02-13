@@ -13,6 +13,10 @@ def first_challenge
     }
   }
 
-  contacts["Freddy Mercury"][:favorite_icecream_flavors].shift
-  contacts
+contacts.each do |person, data|
+  if data == :favorite_icecream_flavors.include?("strawberry")
+    :favorite_icecream_flavors.delete
+  end
+
+  
 end
